@@ -25,7 +25,7 @@ Multiphysics model of a general aviation electric light aircraft with thermal, m
 
 ## Testbed
 
-The team has developed a power electronics testbench at USC is to enable the cost-effective co-design of power electronics and energy storage systems. This testbed is appoximently scaled to match the Pipistrel Velis Electro.
+The team has developed a power electronics testbench at USC to enable the cost-effective co-design of power electronics and energy storage systems. This testbed is appoximently scaled to match the Pipistrel Velis Electro.
 
 <p align="center">
 <img src="media/testbed.jpg" alt="drawing" width="400"/> <br> 
