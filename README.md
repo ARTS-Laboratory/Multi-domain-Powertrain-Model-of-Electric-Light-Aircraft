@@ -7,7 +7,7 @@ This project is generally focused on developing multi-physics (electrical, therm
 
 <p align="center">
 <img src="media/Pipistrel_Velis_Electro_9992.jpg" alt="drawing" width="500"/> <br> 
-The Pipistrel Velis Electro, the light electric airplane that provides the general constraints of the develped models [Airjuice Photography, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons].
+The Pipistrel Velis Electro, the light electric airplane that provides the general constraints of the developed models [Airjuice Photography, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons].
 </p>
 <p align="center">
 </p>
@@ -25,7 +25,7 @@ Multiphysics model of a general aviation electric light aircraft with thermal, m
 
 ## Testbed
 
-The team has developed a power electronics testbench at USC to enable the cost-effective co-design of power electronics and energy storage systems. This testbed is appoximently scaled to match the Pipistrel Velis Electro.
+The team has developed a power electronics testbed at USC to enable the cost-effective co-design of power electronics and energy storage systems. This testbed is approximately scaled to match the Pipistrel Velis Electro.
 
 <p align="center">
 <img src="media/testbed.jpg" alt="drawing" width="400"/> <br> 
