@@ -50,7 +50,7 @@ This work is licensed under a
 Cite as:
 
 @Misc{Adebajo2023MultiDomainPowertrain,   
-  author = {Korebami Adebajo and Nathaniel Cooper and Austin {R.J.} Downey},   
+  author = {Korebami O. Adebajo and Nathaniel Cooper and Austin {R.J.} Downey},   
   howpublished = {GitHub},  
   title  = {Multi-domain Powertrain Model of Electric Light Aircraft},   
   year   = {2023},  
