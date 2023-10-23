@@ -1,0 +1,7 @@
+ElectricalEnergyStorage.CellRecords.Components.SOCOCV(OCVtableOnFile = true, OCVtableName = "26650SOCvOCV", OCVfileName = "/media/nate/External/Test\ Bed/26650SOCvOCV.csv")
+
+ElectricalEnergyStorage.CellRecords.Components.ChargeCapacity(C0 = 9360)
+
+ElectricalEnergyStorage.CellRecords.Components.Resistance(R0 = 0.001)
+
+
