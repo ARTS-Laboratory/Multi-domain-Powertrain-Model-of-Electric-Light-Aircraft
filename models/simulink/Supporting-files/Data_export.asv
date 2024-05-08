@@ -1,0 +1,75 @@
+clc;
+%RUL
+
+%export time to variable from 'out'
+rul2_time=out.RUL_percent.Time;
+% Shorten the time vector by skipping every 5000th value
+shortened_vector = rul2_time(1:5000:end);
+
+% Save the shortened vector to a text file
+fileID = fopen('RUL2_time_100it.txt', 'w');  % Corrected 'w' for writing mode
+fprintf(fileID, '%f\n', shortened_vector);
+fclose(fileID);
+
+%export values to variable from 'out'
+rul2_values=out.RUL_percent.Data;
+% Reshape the array into a column vector
+column_vector = reshape(rul2_values, [], 1);
+
+% Shorten the time vector by skipping every 5000th value
+RUL2_vector = column_vector(1:5000:end);
+
+% Save the shortened vector to a text file
+fileID = fopen('RUL2_values_100it.txt', 'w');  % Corrected 'w' for writing mode
+fprintf(fileID, '%f\n', RUL2_vector);
+fclose(fileID);
+
+%SOC
+
+%export time to variable from 'out'
+soc2_time=out.SOC.Time;
+% Shorten the time vector by skipping every 5000th value
+shortened_vector = soc2_time(1:5000:end);
+
+% Save the shortened vector to a text file
+fileID = fopen('SOC2_time_100it.txt', 'w');  % Corrected 'w' for writing mode
+fprintf(fileID, '%f\n', shortened_vector);
+fclose(fileID);
+
+%export values to variable from 'out'
+soc2_values=out.SOC.Data;
+% Reshape the array into a column vector
+column_vector = reshape(soc2_values, [], 1);
+
+% Shorten the time vector by skipping every 5000th value
+SOC2_vector = column_vector(1:5000:end);
+
+% Save the shortened vector to a text file
+fileID = fopen('SOC2_values)_100it.txt', 'w');  % Corrected 'w' for writing mode
+fprintf(fileID, '%f\n', SOC2_vector);
+fclose(fileID);
+
+%kWhr
+
+%export time to variable from 'out'
+kWhr_time=out.kWhr.Time;
+% Shorten the time vector by skipping every 5000th value
+shortened_vector = kWhr_time(1:5000:end);
+
+% Save the shortened vector to a text file
+fileID = fopen('kWhr_time_100it.txt', 'w');  % Corrected 'w' for writing mode
+fprintf(fileID, '%f\n', shortened_vector);
+fclose(fileID);
+
+%export values to variable from 'out'
+kWhr_values=out.kWhr.Data;
+% Reshape the array into a column vector
+column_vector = reshape(kWhr_values, [], 1);
+
+% Shorten the time vector by skipping every 5000th value
+kWhr_vector = column_vector(1:5000:end);
+
+% Save the shortened vector to a text file
+fileID = fopen('kWhr_values)_100it.txt', 'w');  % Corrected 'w' for writing mode
+fprintf(fileID, '%f\n', SOC2_vector);
+fclose(fileID);

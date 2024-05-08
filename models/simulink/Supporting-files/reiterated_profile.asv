@@ -1,0 +1,65 @@
+clc;
+%plot initial load profile
+figure (1)
+plot (Signal4_new.Time,Signal4_new.Data)
+xlabel('Time') % Add x-axis label
+ylabel('Value') % Add y-axis label
+title(['Original Load Profile ']) % Add title with number of replications
+
+%Replicate load prfoile over n number of times after itself
+n=100; %input(prompt,"enter number")
+
+% Initialize replicated time and values arrays
+replicatedTime = Signal4_new.Time;
+replicatedValues = Signal4_new.Data;
+disp(length(Signal4_new.Data))
+
+% Start replicating from the previous final time for each repetition
+for i = 2:n
+    % Calculate the time offset for the current repetition
+    timeOffset = replicatedTime(end);
+    
+    % Update the replicated time and values arrays for the current repetition
+    replicatedTime = [replicatedTime; replicatedTime(end) + Signal4_new.Time];
+end
+
+for i = 2:n
+    replicatedValues = [replicatedValues; Signal4_new.Data];
+end
+
+% disp(length(replicatedValues))
+% disp(length(replicatedTime))
+% Display the final replicated values
+disp('Final Replicated Time:');
+%disp(replicatedTime);
+
+% Plot replicated load profile
+figure(2)
+plot(replicatedTime, replicatedValues)
+xlabel('Time') % Add x-axis label
+ylabel('Power') % Add y-axis label
+title(['Replicated Load Profile (', num2str(n), ' times)']) % Add title with number of replicationsd Profile (', num2str(n), ' times)']) % Add title with number of replications
+
+% Create a timeseries object with replicated values and time
+ts2 = timeseries(replicatedValues, replicatedTime);
+
+% Assign a name to the timeseries
+ts2.Name = 'ReplicatedSignal';
+
+% Display the timeseries object
+disp(ts2);
+
+% Save the timeseries object to a MAT file
+save('replicated_signal_data.mat', 'ts2');
+% 
+% % Assuming your original data is stored in a variable named 'data'
+% % Create a table with your data
+% T = array2table(Signal4_new);
+% 
+% % Specify column names
+% T.Properties.VariableNames = {'Time', 'Data'};
+% 
+% % Display the table
+% disp(T);
+
+
