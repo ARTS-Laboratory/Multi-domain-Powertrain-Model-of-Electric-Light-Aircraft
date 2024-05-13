@@ -49,11 +49,10 @@ This work is licensed under a
 
 Cite as:
 
-@Misc{Adebajo2023MultiDomainPowertrain,   
-  author = {Korebami O. Adebajo and Nathaniel Cooper and Austin {R.J.} Downey},   
+@Misc{ARTSLabMultiDomainPowertrain,    
+  author = {ARTS-Lab},  
   howpublished = {GitHub},  
-  title  = {Multi-domain Powertrain Model of Electric Light Aircraft},   
-  year   = {2023},  
-  groups = {{ARTS-L}ab},    
-  url    = {https://github.com/ARTS-Laboratory/Multi-domain-Powertrain-Model-of-Electric-Light-Aircraft},    
+  title  = {Multi-domain Powertrain Model of Electric Light Aircraft},
+  groups = {ARTS-Lab},    
+  url    = {https://github.com/ARTS-Laboratory/Multi-domain-Powertrain-Model-of-Electric-Light-Aircraft},   
 }
