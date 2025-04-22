@@ -46,6 +46,7 @@ This work is licensed under a
 [cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
 [cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
 
+![image](https://github.com/user-attachments/assets/aa10a11f-7f75-46c1-9520-b48c6488c6fe)
 
 Cite as:
 
